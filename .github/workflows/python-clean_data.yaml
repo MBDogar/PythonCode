@@ -1,4 +1,4 @@
-on: push
+on: workflow_dispatch
 name: pythonworkflow
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r ModelCleaning/requirements.txt
 
       # Step 4: Clean Data
       - name: Clean Data
