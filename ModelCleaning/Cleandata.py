@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Load CSV file
-df = pd.read_csv('ModelCleaning/data.csv')
+df = pd.read_csv('Data.csv')
 
 # Show original data
 print("Original Data:")
